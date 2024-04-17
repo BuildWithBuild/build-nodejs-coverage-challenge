@@ -1,0 +1,28 @@
+{
+  "name": "build_code_callenge_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "nodemon src/webserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jest covarage"
+  },
+  "keywords": [
+    "jest",
+    "covarage."
+  ],
+  "author": "Build Global",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}
